@@ -22,8 +22,6 @@ function isPath(string $route): bool
         }
 
         if ($routePart !== $pathPart) {
-            echo($routePart);
-            echo($pathPart);
             return false;
         }
     }
